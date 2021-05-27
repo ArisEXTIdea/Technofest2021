@@ -1,0 +1,46 @@
+import React, { Component } from 'react'
+import { Footer, Navbar } from '../../components'
+import './style.scss'
+
+export class Contact extends Component {
+    render() {
+        return (
+            <div className='container-fluid'>
+                <Navbar />
+                <div className="row contact-row justify-content-center">
+                    <div className="col-8">
+                        <h2 className='text-center'>Kontak</h2>
+                        <p>Untuk informasi lebih lanjut mengenai technofest 2021 anda dapat menghubungi kami melalui daftar kontak di bawah ini.</p>
+                        <h3>Alamat</h3>
+                        <ul>
+                            <li><b>Kantor BEM FST</b>- Jalan Taman Siswa, Pekeng, Jl. Kauman, Kec. Tahunan, Kabupaten Jepara, Jawa Tengah 59451</li>
+                        </ul>
+                        <h3>Email</h3>
+                        <ul>
+                            <li>bemfst@usisnu.ac.id</li>
+                        </ul>
+                        <h3>Media Sosial</h3>
+                        <h4>Instagram</h4>
+                        <ul>
+                            <li>bemfst.unisnu</li>
+                            <li>technofest.unisnu</li>
+                        </ul>
+                        <h3>Kontak Personal Setiap Aacara</h3>
+                        <h4>Instagram</h4>
+                        <ul>
+                            <li>Mobile Legend - 089078686987</li>
+                            <li>Kompetisi Band - 089078686987</li>
+                            <li>Webinar - 089078686987</li>
+                            <li>Expo - 089078686987</li>
+                            <li>Umum - 089078686987</li>
+                        </ul>
+                    </div>
+                </div>
+                <Footer />
+                
+            </div>
+        )
+    }
+}
+
+export default Contact
